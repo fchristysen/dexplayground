@@ -11,6 +11,10 @@ import java.lang.annotation.RetentionPolicy;
 
 public class SomeConstant {
 
+    /* Class which contain this Retention and @interface will be included in classes.dex
+    * Reference to R file in this same class, cause the R to be included in the classes.dex also
+    * Notes : try to remove this SomeEnum to remove the R from classes.dex
+    */
     @Retention(RetentionPolicy.SOURCE)
     public @interface SomeEnum{
 
