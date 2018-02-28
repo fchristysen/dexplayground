@@ -1,3 +1,2 @@
 Branch Description
-* master - Empty app
-* multidex -  App with many strings and dependencies (forced to multidex)
+* master -  App with many strings and dependencies (forced to multidex)
